@@ -1,0 +1,136 @@
+body{
+    margin:0px;
+    margin-top:60px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif
+ }
+
+nav{
+   display: flex;
+    position: absolute;
+   top:0;
+   height: 20%;
+   width: 100%;
+   background-color: rgb(251, 255, 196);
+   overflow: hidden;
+   height: auto;
+}
+   .left-links{
+   flex:1 1 200px;
+}
+.links {
+   display: inline-block;
+   text-align: center;
+   padding: 14px;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: bolder;
+}
+.links:hover {
+   border-bottom: 2px solid purple;
+}
+.selected{
+   border-bottom: 2px solid purple;
+}
+
+.main-body {
+    height:100vh;
+    background-color: rosybrown;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0;
+}
+.top-container {
+    display: flex;
+    position: relative;
+    height:100vh;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    background-color: #795d5d;
+    padding: 20px;
+
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 20%;
+    background-color: #7d81ab;
+    padding: 20px;
+
+}
+.shelf {
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position: relative;
+    height: 25%;
+    width:100%;
+    font-size: 4em;
+    background-color: grey;
+    
+}
+.video-box {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position: relative;
+    height: 85%;
+    width:100%;
+    background-color: brown;
+    margin:5px;
+}
+.catagory {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    position: relative;
+    height: 8%;
+    width:100%;
+    background-color: #795d5d;
+    margin:5px;
+    border-radius: 10px;
+}
+nav {
+    display:flex;
+    flex-direction: row;
+    background-color: #474d94;
+    height: 50px;
+    width: 100%;
+}
+.navbar label{
+    display: inline-flex;
+    text-align: left;
+    line-height: 50px;
+    color: #633434;
+    font-size: 2.5em;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    font-weight:900;
+}
